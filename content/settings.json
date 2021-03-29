@@ -1,0 +1,10 @@
+{
+  "title": "Learn me a Bitcoin",
+  "url": "",
+  "logo": {
+    "light": "/bitcoin.svg",
+    "dark": "/bitcoin.svg"
+  },
+  "github": "jaonoctus/learnmeabitcoin",
+  "twitter": "@jaonoctus"
+}
