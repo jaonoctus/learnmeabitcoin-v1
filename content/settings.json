@@ -2,8 +2,8 @@
   "title": "Learn me a Bitcoin",
   "url": "https://jaonoctus.github.io/learnmeabitcoin/",
   "logo": {
-    "light": "/bitcoin.svg",
-    "dark": "/bitcoin.svg"
+    "light": "bitcoin.svg",
+    "dark": "bitcoin.svg"
   },
   "github": "jaonoctus/learnmeabitcoin",
   "twitter": "@jaonoctus"

@@ -17,16 +17,16 @@ The following is a simple explanation of how it works.
 
 Bitcoin is just a **computer program**. You can download it and run it on your computer.
 
-![image](/content/home/1_1_program.png)
+![image](/static/images/home/1_1_program.png)
 
 Go on, [try it](https://bitcoin.org/en/download).
 
 When you run the program, it will connect to other computers who are also running this program, and they will start sharing a file with you. This file is called the [blockchain](TODO), and it is basically a big list of [transactions](TODO).
 
-![image](/content/home/1_2_network.png)
+![image](/static/images/home/1_2_network.png)
 
 When a new transaction enters the network, it gets relayed from computer to computer until everyone has a copy of the transaction. At roughly 10 minute intervals, a random computer ([node](TODO)) on the network will add the latest transactions they have received on to the blockchain, and share the updates with everyone else on the network.
 
-![image](/content/home/1_3_network_transactions.png)
+![image](/static/images/home/1_3_network_transactions.png)
 
 As a result, the Bitcoin program creates a large [network](TODO) of computers that communicate with each other to **share a file and update it with new transactions**.
