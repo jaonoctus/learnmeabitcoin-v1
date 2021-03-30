@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{334:function(t,e,c){"use strict";c.r(e),e.default={article:{github:"Edit this page on GitHub",updatedAt:"Updated at"},search:{placeholder:'Search: transaction, block, address, etc (Press "/" to focus)'},toc:{title:"On this page"}}}}]);

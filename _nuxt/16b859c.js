@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{333:function(e,t,o){"use strict";o.r(t),t.default={article:{github:"Edite esta página no GitHub",updatedAt:"Atualizado em"},search:{placeholder:'Pesquise: transação, bloco, endereço, etc (Pressione "/" para focar)'},toc:{title:"Nesta página"}}}}]);

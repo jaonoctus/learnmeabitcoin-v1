@@ -1,0 +1,11 @@
+{
+  "name": "learnmeabitcoin",
+  "short_name": "learnmeabitcoin",
+  "description": "## Build Setup",
+  "icons": [],
+  "start_url": "/learnmeabitcoin/?standalone=true",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#F7941D",
+  "lang": "en"
+}
