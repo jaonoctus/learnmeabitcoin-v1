@@ -37,4 +37,23 @@ export default theme({
       file.data = file.data.replaceAll(regexMDImage, changeImagePath)
     },
   },
+  i18n: {
+    lazy: true,
+    langDir: `${require('path').resolve(__dirname)}/i18n`,
+    defaultLocale: 'en',
+    locales: () => [
+      {
+        code: 'pt-BR',
+        iso: 'pt-BR',
+        file: 'pt-BR.js',
+        name: 'Português (Brasil)',
+      },
+      {
+        code: 'en',
+        iso: 'en-US',
+        file: 'en-US.js',
+        name: 'English',
+      },
+    ],
+  },
 })
