@@ -16,8 +16,21 @@ export default theme({
   },
   ssr: false,
   target: 'static',
+  modules: ['@nuxtjs/sitemap'],
   router: {
     base: '/learnmeabitcoin/',
+  },
+  sitemap: {
+    hostname: 'https://jaonoctus.github.io',
+    async routes() {
+      const { $content } = require('@nuxt/content')
+      const files = await $content({ deep: true })
+        .where({ path: { $ne: '/settings' } })
+        .only(['path'])
+        .fetch()
+
+      return files.map((file) => (file.path === '/index' ? '/' : file.path))
+    },
   },
   hooks: {
     'content:file:beforeParse': (file) => {
